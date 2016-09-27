@@ -1,0 +1,11 @@
+import math
+a = input("Enter the size of side A: ")
+a = int(a)
+b = input("Enter the size of side B: ")
+b = int(b)
+c = input("Enter the size of side C: ")
+c = int(c)
+d=((a+b+c)*(-a+b+c)*(a-b+c)*(a+b-c))
+area=(1/4)*math.sqrt(d)
+area=int(area)
+print(area)
